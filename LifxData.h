@@ -1,6 +1,7 @@
 #ifndef LIFXDATA_H
 #define LIFXDATA_H
 
+namespace lifxdata{
 class LifxData {
     private:
 	int valA;
@@ -11,6 +12,6 @@ class LifxData {
     
 	virtual ~LifxData();
 };    
-
+}
  
 #endif // LIFX_H 

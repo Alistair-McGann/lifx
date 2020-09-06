@@ -1,5 +1,6 @@
 #include <LifxData.h>
 
+namespace lifxdata{
 LifxData::LifxData(int a, int b) {
 	this->valA = a;
 	this->valB = b;
@@ -12,7 +13,8 @@ int LifxData::LifxData::Add() {
     }
 
 LifxData::~LifxData() = default;
-
+}
+    
 /*
 LifxData::LifxData() {
     
