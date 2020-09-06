@@ -1,4 +1,4 @@
-#include <LifxData.h>
+#include "LifxData.h"
 
 namespace lifxdata{
 LifxData::LifxData(int a, int b) {
